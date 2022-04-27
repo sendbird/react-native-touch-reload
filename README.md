@@ -3,16 +3,23 @@
 > Just touch not a shake! <br/>
 > this project inspired from https://github.com/pie6k/react-native-dev-menu-on-touch
 
+<img width="300" src="screenshot.png">
+
 ## Installation
 
 ```sh
 npm install sendbird/react-native-touch-reload
 ```
 
+```sh
+yarn add sendbird/react-native-touch-reload
+```
+
 ## Usage
 
+### Component
+
 ```tsx
-// Wrap your app
 import { TouchReload } from 'react-native-touch-reload';
 
 const ReloadableApp = () => {
@@ -26,8 +33,9 @@ const ReloadableApp = () => {
 AppRegistry.registerComponent(appName, () => ReloadableApp);
 ```
 
+### HoC
+
 ```tsx
-// HoC
 import { withTouchReload } from 'react-native-touch-reload';
 
 const ReloadableApp = withTouchReload(App, DEFAULT_VISIBLE?, ACTIVE_TOUCHES?);
