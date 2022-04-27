@@ -1,6 +1,6 @@
 # react-native-touch-reload
 
-> Just touch not a shake! <br/>
+> Don't shake 👋 ! Just touch 👈  <br/>
 > this project inspired from https://github.com/pie6k/react-native-dev-menu-on-touch
 
 <img width="300" src="screenshot.png">
