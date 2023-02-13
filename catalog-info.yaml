@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: react-native-touch-reload
+  description: Reload helper for React Native
+  annotations:
+    github.com/project-slug: sendbird/react-native-touch-reload
+spec:
+  type: library
+  lifecycle: experimental
+  owner: dep-client-platform
+  system: sendbird-uikit
